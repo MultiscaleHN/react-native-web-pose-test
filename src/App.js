@@ -16,12 +16,12 @@ class App extends Component {
   render() {
     return (
       <View>
-        <Button
-          title="toggle pose"
-          onPress={() => this.setState({ isVisible: !this.state.isVisible })}
-        />
-        <View>
+        <View style={{ paddingTop: 50 }}>
           <Text>Test Pose!</Text>
+          <Button
+            title="toggle pose"
+            onPress={() => this.setState({ isVisible: !this.state.isVisible })}
+          />
           <Box
             style={{ width: 50, height: 50, backgroundColor: 'red' }}
             pose={this.state.isVisible ? 'visible' : 'hidden'}
