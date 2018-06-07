@@ -1,0 +1,19 @@
+{
+  "name": "react-native-pose-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-art": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-native-pose": "^0.3.0",
+    "react-native-web": "^0.8.3",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
