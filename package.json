@@ -2,18 +2,30 @@
   "name": "react-native-pose-test",
   "version": "0.1.0",
   "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "dependencies": {
-    "react": "^16.4.0",
-    "react-art": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-native-pose": "^0.3.0",
-    "react-native-web": "^0.8.3",
-    "react-scripts": "1.1.4"
+    "expo": "27.0.1",
+    "react": "16.3.1",
+    "react-art": "16.3.1",
+    "react-dom": "16.3.1",
+    "react-native-pose": "0.3.x",
+    "react-native-web": "0.8.x",
+    "react-scripts": "1.1.x",
+    "react-native": "0.55.x"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.x",
+    "babel-plugin-transform-object-rest-spread": "6.26.x",
+    "babel-plugin-transform-react-jsx-source": "6.22.x",
+    "babel-preset-expo": "4.0.x",
+    "react-app-rewire-babel-loader": "0.1.x",
+    "react-app-rewired": "2.0.x",
+    "react-native-scripts": "1.14.x"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "start-native": "react-native-scripts start",
+    "ios": "react-native-scripts ios",
+    "build:web": "react-app-rewired build"
   }
 }
